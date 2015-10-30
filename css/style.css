@@ -1,0 +1,411 @@
+/*Coded By Developer Minan*/
+*{
+	margin: auto;
+	padding: auto;
+}
+
+body{
+	color: #fff !important;
+	
+}
+
+header{
+
+}
+
+/*---- .Navigation ----*/
+
+.navigation{
+	width: 100%;
+	height: 80px;
+	background: #000;
+	padding: 14px;
+}
+
+
+.navbar-brand1{
+	font-size: 30px;
+	font-family: 'Myriad Pro Regular';
+	font-weight: 200px;
+	color: #fff;
+}
+
+.active{
+	background: #62a29e;
+	border-radius: 5px 5px;
+	box-shadow: #528b86 0px 3px 0px;
+}
+
+a.navbar-brand1:focus,
+a.navbar-brand1:hover,
+a.navbar-brand1:visited,
+a.navbar-brand1:active{
+	color: #fff;
+	text-decoration: none;
+}
+
+a.navbar-brand1 span{
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.navbar-toggle{
+	border: 1px solid #fff;
+}
+
+.navbar-toggle span{
+	background-color: #fff;
+}
+
+.m-right{
+	float: right;
+}
+
+ul.navigation-item li{
+	list-style-type: none;
+	float: left;
+	margin-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+ul.navigation-item li a{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+ul.navigation-item li a:hover, 
+ul.navigation-item li a:focus,
+ul.navigation-item li a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+
+a.nav-item:hover{
+	background: #e8645a;
+	border-radius: 5px 5px;
+	box-shadow: #e2534b 0px 3px 0px;
+}
+
+.search{
+	width: 470px;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #76c7c0;
+	background: transparent;
+}
+
+.search input{
+	width: 400px;
+	height: 40px;
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	outline: none;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 4px 4px;
+	border: none;
+	
+}
+
+.search input:focus{
+	box-shadow: #528b86 0px 3px 0px;
+}
+
+.background-dark{
+	background: #62a29e;
+	box-shadow: inset #3f4646 2px 2px 30px;
+}
+
+.drop-icons{
+	display: none;
+	margin-top: 6px;
+	position: relative;
+}
+
+ul.nav-drop-item{
+	background: #e2534b;
+	width: 200px;
+	height: 125px;
+	padding: 0;
+	border-radius: 5px 5px;
+	margin-top: -10px;
+	position: relative;
+}
+
+ul.nav-drop-item li{
+	float: none;
+	margin: 0;
+	padding: 0px;
+}
+
+ul.nav-drop-item li a{
+	float: left;
+	font-size: 13px;
+	padding: 7px 20px 7px 20px;
+	border-radius: 4px 4px;
+	background: #e5655d;
+	margin-top: 6px;
+	margin-left: 12px;
+	font-weight: 400;
+}
+
+ul.nav-drop-item li a:hover{
+	background: #76c7c0;
+}
+
+.drop-icons i{
+	font-size: 24px;
+	margin-left: 10px;
+	color: #e2534b;
+}
+
+/*---- /.Navigation ----*/
+
+/*---- .Carousel ----*/
+
+.slider-text{
+	width: auto;
+	height: auto;
+}
+
+.slider-text-orange{
+	margin-bottom: 20px;
+}
+
+.slider-text-orange span{
+	background: #e2534b;
+	font-size: 50px;
+	padding: 8px 40px 8px 40px; 
+	border-radius: 8px 8px;
+}
+
+.slider-text-grey{
+	margin: 10px;
+	background: #3f4646;
+	padding: 10px;
+	width: 467px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px 5px;
+	margin-bottom: 140px;
+}
+
+.carousel-control{
+	font-size: 30px;
+	margin-left: 0px;
+	background: #e8645a;
+	height: 50px;
+	width: 50px;
+	border-radius: 6px 0px 0px 6px;
+}
+
+.carousel-control.left{
+	border-radius: 0px 6px 6px 0px;
+}
+
+.Rectangle{
+	width: 100%;
+	height: auto;
+	background: #f3f3f3;
+	padding: 20px;
+}
+
+.Rectangle ul{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.Rectangle ul li{
+	width: 60px;
+	height: 5px;
+	background: #b0b8b9;
+	list-style-type: none;
+	float: left;
+	margin-right: 10px;
+	display: inline-block;
+	float: none;
+}
+
+.Rectangle ul li:hover,
+.Rectangle ul li:focus{
+	background: #e2534b;
+}
+
+
+/*------------------------------- Section -----------------------------*/
+
+.section{
+	background: #f3f3f3;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.section-intro{
+	width: 100%;
+	height: auto;
+}
+
+.section-intro-text{
+	background: #ececec;
+	border-radius: 6px 6px;
+	padding: 25px;
+}
+
+.section-intro-text-header{
+	color: #7f8c8c;
+	font-size: 30px;
+}
+
+.section-intro-text-button{
+	float: right;
+	background: #e2534b;
+	padding: 17px 50px 17px 50px;
+	border-radius: 6px 6px;
+	border-bottom: 4px solid #e2534b;
+	color: #fff;
+	font-size: 20px;
+}
+
+.section-intro-text-button:hover,
+.section-intro-text-button:focus{
+	color: #fff;
+	text-decoration: none;
+}
+
+.section-intro-text-text{
+	color: #777777;
+	font-size: 13px;
+}
+
+.section-intro-panel{
+
+}
+
+.section-intro-panel-item{
+	width: 270px;
+	height: 410px;
+	background: #fff;
+	border-radius: 6px 6px;
+	margin-right: 15px;
+	margin-top: 70px;
+	margin-bottom: 10px;
+	text-align: center;
+	border-bottom: 5px #e5e6e6 solid;
+}
+
+.section-intro-panel-item-icon{
+	font-size: 80px;
+	padding: 30px;
+	color: #62bdbd;
+}
+
+.section-intro-panel-item-header{
+	color: #7f8c8c;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.section-intro-panel-item-text{
+	font-size: 13px;
+	margin-top: 50px;
+}
+
+.section-intro-panel-item-button{
+	width: auto;
+	height: auto;
+	margin-top: 85px;
+}
+
+.section-intro-panel-item-button a{
+	background: #62bdbd;
+	padding: 25px 71px 25px 71px;
+	border-radius: 6px 6px;
+	color: #fff;
+	font-size: 16px;
+
+}
+
+.section-intro-panel-item-button a:hover, 
+.section-intro-panel-item-button a:focus{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/*------------------------------- |Media RESPONSIVE 767px| -----------------------------*/
+
+@media (max-width:  767px){
+
+.m-right{
+	float: left;
+}
+
+ul.navigation-item{
+	width: 100%;
+	padding-top: 30px;
+	float: left;
+}
+
+ul.navigation-item li{
+	float: none;
+}
+
+.collapse{
+	margin-right: -14px;
+	margin-left: -14px;
+}
+
+.navbar-collapse{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.m-none{
+	display: none;
+}
+
+ul.navigation-item{
+	background: #76c7c0;
+}
+
+.section-intro-panel-item{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.m-text-center{
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.section-intro-text-button{
+	float: none;
+}
+
+
+}
+/*------------------------------- |Media RESPONSIVE 500px| -----------------------------*/
+
+@media (max-width:  500px){
+
+.section-intro-text-button{
+	display: inline-block;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+
+}

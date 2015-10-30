@@ -1,0 +1,499 @@
+/* Coded by Developer Minan */
+
+/*
+Project name: Project;
+TAG: open source managent system;
+Developer: Minan;
+Data: 10.10.2015;
+*/
+
+/* Reset CSS */
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+a,
+a:focus,
+a:hover, 
+a:visited,
+a:active{
+	text-decoration: none;
+}
+
+.clear{
+	clear: both;
+}
+
+.navbar-top{
+	width: 100% !important;
+	padding: 10px 0;
+	position: fixed !important;
+
+}
+
+body{
+	background: #333 !important;
+	color: #fff !important;
+}
+
+.dropdown-menu{
+	background: #000 !important;
+}
+
+.btn-primary{
+	background: #000 !important;
+	border: 0 !important;
+	outline: none !important; 
+}
+
+.btn-default{
+	background: #000 !important;
+	border: 0 !important;
+	outline: none !important; 
+	color: #fff !important;
+}
+
+.btn-info{
+	background: #777 !important;
+	border: 0 !important;
+}
+
+.message-btn{
+	height: 39px;
+}
+
+.message-btn:hover{
+	box-shadow: 1px 1px 15px #1B8F68;
+	color: #1B8F68 !important;
+}
+
+/* Navbar */
+
+.navbar-brand{
+	background: #444 !important;
+}
+
+.navbar-default{
+	background: #000 !important;
+	border: 0 !important;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #fff !important;
+}
+
+.m-right{
+	float: right !important;
+}
+.navbar-nav li{
+	margin-right: 10px;
+}
+
+@media(max-width: 767px){
+	.m-right{
+		float: left !important;
+	}
+}
+
+.dropdown-menu li{
+	margin-right: 0 !important;
+}
+
+.dropdown-menu{
+	padding: 0 !important;
+	border: 0 !important ;
+}
+
+.dropdown-menu > li > a{
+	padding: 14px 20px !important;
+}
+
+/* Form */
+
+.form{
+	width: 30%;
+	margin: 0 auto;
+	padding-bottom: 300px;
+}
+
+@media(max-width: 767px){
+	.form{
+		width: 90%;
+	}
+}
+
+.form-img a img{
+	width: 150px;
+	margin-left: 30%;
+}
+
+.success{
+	width: 50%;
+	margin: 0 auto;
+	background: #1B8F68;
+	padding: 10px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 4px 4px;
+}
+
+.error{
+	width: 50%;
+	margin: 0 auto;
+	background: #8A1212;
+	padding: 10px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 4px 4px;
+}
+
+/* Article */
+
+.article-page{
+	width: 100%;
+	padding: 10px;
+	background: #ededed;
+	margin: 10px 0px 10px 0px;
+	border-radius: 3px 3px;
+	box-shadow: inset 1px 1px 10px #333;
+}
+
+.article-header{
+	text-align: center;
+	color: #555;
+}
+
+.article-header a{
+	float: left;
+	border: 0;
+	margin: 3px;
+	padding: 7px 14px;
+	font-weight: 600;
+	color: #fff;
+	background: #000;
+	box-shadow: 1px 1px 10px;
+}
+
+.article-header a:hover,
+.article-header a:focus{
+	text-decoration: none;
+}
+
+@media(max-width: 500px){
+	.article-header a{
+		width: 100% !important;
+		margin-bottom: 15px;
+	}
+}
+
+.article-body{
+	margin-top: 10px;
+	padding: 5px 20px;
+	color: #777;
+	font-size: 13px;
+}
+
+.article-footer{
+	margin-top: 10px;
+	padding: 20px;
+	font-size: 12px;
+
+}
+
+.article-footer p a{
+	text-decoration: none;
+	color: #333;
+	padding: 10px;
+}
+
+.message-show{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.comment{
+
+}
+
+.comment-list{
+	width: 100%;
+	height: auto;
+	margin: 20px 0px 20px -15px;
+}
+
+.comment-list li{
+	list-style: none;
+	background: #ccc;
+	padding: 10px;
+	border-left: 5px solid #1FA67E;
+	border-top: 1px solid #111;
+	border-right: 1px solid #111;
+	color: #111;
+}
+
+#nick{
+	color: #1FA67E;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.article-nick{
+ 	float: left;
+}
+
+.delete{
+	background: #D30505;
+	color: #fff;
+	padding: 8px 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 0;
+	text-decoration: none;
+	box-shadow: 1px 1px 10px;
+	font-weight: 400;
+	font-size: 17px;
+}
+
+.delete:hover,
+.delete:focus,
+.delete:active{
+	text-decoration: none;
+	color: #fff;
+}
+
+/* New Article */
+
+.new-article{
+	padding: 20px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.new-article form input{
+	margin-top: 10px;
+}
+
+.new-article form textarea{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.height40px{
+	height: 40px !important;
+}
+
+.width50{
+	width: 50% !important;
+}
+
+.width25{
+	width: 25% !important;
+}
+
+/* Profile */
+.profile{
+	padding: 20px;
+}
+
+.profile-nick{
+	background: #777;
+	color: #fff;
+	padding: 7px;
+	font-size: 20px;
+}
+
+.profile-history{
+	background:#666;
+	color: #fff;
+	padding: 7px;
+	font-size: 15px;
+}
+
+.profile-rank{
+	background:#555;
+	color: #fff;
+	padding: 7px;
+	font-size: 15px;
+}
+
+.profile-article{
+	margin: 12px;
+	padding: 20px;
+	background: #444;
+	color: #fff;
+	font-size: 17px;
+}
+
+.profile-article p{
+	border-bottom: 1px solid #3EA1BE;
+	box-shadow: 1px 1px 5px #3EA1BE;
+	padding: 5px;
+}
+
+.profile-article-text{
+	margin: 12px;
+	padding: 20px;
+	background: #000;
+	color: #fff;
+	font-size: 17px;
+	display: none;
+}
+
+.drop{
+	padding: 5px;
+}
+
+
+.drop a,
+.drop a:focus,
+.drop a:hover, 
+.drop a:visited,
+.drop a:active{
+	color: #fff;
+	text-decoration: none;
+}
+
+.drop a{
+	background: #1B8F68;
+	padding: 2px 6px;
+	border-radius: 16px 16px;
+	font-size: 13px;
+}
+
+.drop a.minus{
+	display: none;
+	background: #D30505;
+}
+
+/* Message */
+
+.message{
+	width: 90%;
+	height: 50%;
+	top: 0;
+	margin: 0 auto;
+	background: #000;
+	border: 1px solid #333;
+}
+
+.message h2{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #1B8F68;
+
+}
+
+
+.mess{
+	padding: 10px;
+	border: 0;
+	box-shadow: 1px 1px 5px #333;
+}
+
+.nick{
+	font-size: 20px;
+	color: #1fa67a;
+	font-weight: 600;
+}
+
+.comment{
+	margin-left: 30px;
+	font-size: 15px;
+}
+
+.forminput{
+	width: 93%;
+	margin: 0 auto;
+	height: auto;
+	padding: 20px;
+}
+
+.mesaj-input{
+	width: 92%;
+	height: 40px;
+	outline: none;
+	padding-left: 10px;
+	color: #1B8F68;
+	background: #000;
+	border: 0 ;
+	text-align: center;
+}
+
+.mesaj-input:focus{
+	border: 1px solid #1B8F68;
+	box-shadow: 1px 1px 5px #1B8F68;
+}
+
+#message-islem{
+	width: 100%;
+	padding: 20px;
+}
+
+#message-islem li{
+	list-style: none;
+	color: #333;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+#message-islem li span{
+	margin-left: 20px;
+	font-size: 15px;
+	color: #fff;
+}
+
+span.nick{
+	color: #fff;
+	font-size: 20px !important;
+}
+
+.my-nick{
+	color: #1B8F68 !important;
+}
+
+.new-message{
+	color: yellow;
+	font-size: 16px;
+}
+
+/* Search php */
+
+.form-group{
+	left: 30%;
+
+}
+
+
+/* Footer */
+
+footer{
+	color: #fff;
+	position: absolute;
+	width: 100% !important;
+	bottom: 0 !important;
+	left: 0 !important;
+}
+
+.footer{
+	margin-bottom: 0px !important;
+}
+
+.footer-info{
+	padding: 20px 20px 20px 0px;
+}
+
+.footer-brand{
+	padding: 20px 20px 20px 0px;
+}
+
+
+
+
+
+
+
+
